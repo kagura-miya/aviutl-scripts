@@ -1,0 +1,77 @@
+--track0:Фы,0,9,0,1
+local values = {
+  "v1.OДIE/%xQПо/Фы/ХБТ ",
+  "v1.OДIE/%xQПо/Фы/В®В±",
+  "v1.OДIE/%xQПо/Фы/В®В±В®В±",
+  "v1.OДIE/%xQПо/Фы/Љ≠Ё",
+  "v1.OДIE/%xQПо/Фы/НҐВи",
+  "v1.OДIE/%xQПо/Фы/ЈЎѓ",
+  "v1.OДIE/%xQПо/Фы/ЙЇВ∞",
+  "v1.OДIE/%xQПо/Фы/ВёБ[Вс",
+  "v1.OДIE/%xQПо/Фы/±Ќ™",
+}
+PSD:addstate(values, obj.track0)
+
+--track1:ЦЏ,0,25,0,1
+local values = {
+  require("PSDToolKit").Blinker.new({"v1.OДIE/%xQПо/ЦЏ/Х¬Вґ","v1.OДIE/%xQПо/ЦЏ/Н„","v1.OДIE/%xQПо/ЦЏ/Н„","v1.OДIE/%xQПо/ЦЏ/ХБТ ","v1.OДIE/%xQПо/ЦЏ/ХБТ "},3.1,1,5),
+  require("PSDToolKit").Blinker.new({"v1.OДIE/%xQПо/ЦЏ/Х¬Вґ","v1.OДIE/%xQПо/ЦЏ/Х¬Вґ","v1.OДIE/%xQПо/ЦЏ/Н„","v1.OДIE/%xQПо/ЦЏ/Н„","v1.OДIE/%xQПо/ЦЏ/Н„"},3.1,1,5),
+  require("PSDToolKit").Blinker.new({"v1.OДIE/%xQПо/ЦЏ/Х¬Вґ","v1.OДIE/%xQПо/ЦЏ/Н„","v1.OДIE/%xQПо/ЦЏ/Н„","v1.OДIE/%xQПо/ЦЏ/М©КJВЂ","v1.OДIE/%xQПо/ЦЏ/М©КJВЂ"},3.1,1,5),
+  require("PSDToolKit").Blinker.new({"v1.OДIE/%xQПо/ЦЏ/Х¬Вґ","v1.OДIE/%xQПо/ЦЏ/ВяВїВзВµ","v1.OДIE/%xQПо/ЦЏ/ВяВїВзВµ","v1.OДIE/%xQПо/ЦЏ/ВяВїВзВµ","v1.OДIE/%xQПо/ЦЏ/ВяВїВзВµ"},3.1,1,5),
+  require("PSDToolKit").Blinker.new({"v1.OДIE/%xQПо/ЦЏ/Х¬Вґ","v1.OДIE/%xQПо/ЦЏ/ГМГCГvЦЏН„","v1.OДIE/%xQПо/ЦЏ/ГМГCГvЦЏН„","v1.OДIE/%xQПо/ЦЏ/ГМГCГvЦЏ","v1.OДIE/%xQПо/ЦЏ/ГМГCГvЦЏ"},3.1,1,5),
+  require("PSDToolKit").Blinker.new({"v1.OДIE/%xQПо/ЦЏ/Х¬Вґ","v1.OДIE/%xQПо/ЦЏ/Х¬Вґ","v1.OДIE/%xQПо/ЦЏ/ГМГCГvЦЏН„","v1.OДIE/%xQПо/ЦЏ/ГМГCГvЦЏН„","v1.OДIE/%xQПо/ЦЏ/ГМГCГvЦЏН„"},3.1,1,5),
+  require("PSDToolKit").Blinker.new({"v1.OДIE/%xQПо/ЦЏ/Х¬Вґ","v1.OДIE/%xQПо/ЦЏ/ГМГCГvЦЏН„","v1.OДIE/%xQПо/ЦЏ/ГМГCГvЦЏН„","v1.OДIE/%xQПо/ЦЏ/ГМГCГvЦЏМ©КJВЂ","v1.OДIE/%xQПо/ЦЏ/ГМГCГvЦЏМ©КJВЂ"},3.1,1,5),
+  require("PSDToolKit").Blinker.new({"v1.OДIE/%xQПо/ЦЏ/∆ѓЇЎ","v1.OДIE/%xQПо/ЦЏ/ГEГCГУГN","v1.OДIE/%xQПо/ЦЏ/ГEГCГУГN","v1.OДIE/%xQПо/ЦЏ/ГEГCГУГN","v1.OДIE/%xQПо/ЦЏ/ГEГCГУГN"},3.1,1,5),
+  require("PSDToolKit").Blinker.new({"v1.OДIE/%xQПо/ЦЏ/Х¬Вґ","v1.OДIE/%xQПо/ЦЏ/±Ќ™","v1.OДIE/%xQПо/ЦЏ/±Ќ™","v1.OДIE/%xQПо/ЦЏ/±Ќ™","v1.OДIE/%xQПо/ЦЏ/±Ќ™"},3.1,1,5),
+  "v1.OДIE/%xQПо/ЦЏ/ХБТ ",
+  "v1.OДIE/%xQПо/ЦЏ/ГМГCГvЦЏ",
+  "v1.OДIE/%xQПо/ЦЏ/ВяВїВзВµ",
+  "v1.OДIE/%xQПо/ЦЏ/ГМГCГvЦЏВяВїВзВµ",
+  "v1.OДIE/%xQПо/ЦЏ/Н„",
+  "v1.OДIE/%xQПо/ЦЏ/ГМГCГvЦЏН„",
+  "v1.OДIE/%xQПо/ЦЏ/М©КJВЂ",
+  "v1.OДIE/%xQПо/ЦЏ/ГМГCГvЦЏМ©КJВЂ",
+  "v1.OДIE/%xQПо/ЦЏ/∆ѓЇЎ",
+  "v1.OДIE/%xQПо/ЦЏ/ГEГCГУГN",
+  "v1.OДIE/%xQПо/ЦЏ/Х¬Вґ",
+  "v1.OДIE/%xQПо/ЦЏ/БДБГ",
+  "v1.OДIE/%xQПо/ЦЏ/ВґВ∆Б[",
+  "v1.OДIE/%xQПо/ЦЏ/ВџВѓБ[",
+  "v1.OДIE/%xQПо/ЦЏ/ВџВѓБ[(В»ВЁВЊ",
+  "v1.OДIE/%xQПо/ЦЏ/±Ќ™",
+}
+PSD:addstate(values, obj.track1)
+
+--track2:Мы,0,29,0,1
+local values = {
+  require("PSDToolKit").LipSyncSimple.new({"v1.OДIE/%xQПо/Мы/Пќ","v1.OДIE/%xQПо/Мы/Пќ","v1.OДIE/%xQПо/Мы/Пќ","v1.OДIE/%xQПо/Мы/ПќСе","v1.OДIE/%xQПо/Мы/ПќСе"},1,true),
+  require("PSDToolKit").LipSyncSimple.new({"v1.OДIE/%xQПо/Мы/Пќ","v1.OДIE/%xQПо/Мы/Пќ","v1.OДIE/%xQПо/Мы/Пќ","v1.OДIE/%xQПо/Мы/Пќ","v1.OДIE/%xQПо/Мы/Пќ"},1,true),
+  require("PSDToolKit").LipSyncSimple.new({"v1.OДIE/%xQПо/Мы/ХБТ ","v1.OДIE/%xQПо/Мы/ВўБ[","v1.OДIE/%xQПо/Мы/ВўБ[","v1.OДIE/%xQПо/Мы/КJВѓ","v1.OДIE/%xQПо/Мы/КJВѓ"},1,true),
+  require("PSDToolKit").LipSyncSimple.new({"v1.OДIE/%xQПо/Мы/ХБТ ","v1.OДIE/%xQПо/Мы/ВўБ[","v1.OДIE/%xQПо/Мы/ВўБ[","v1.OДIE/%xQПо/Мы/МI","v1.OДIE/%xQПо/Мы/МI"},1,true),
+  require("PSDToolKit").LipSyncSimple.new({"v1.OДIE/%xQПо/Мы/ХБТ ","v1.OДIE/%xQПо/Мы/ХБТ ","v1.OДIE/%xQПо/Мы/ВўБ[","v1.OДIE/%xQПо/Мы/ВўБ[","v1.OДIE/%xQПо/Мы/ВўБ["},1,true),
+  require("PSDToolKit").LipSyncSimple.new({"v1.OДIE/%xQПо/Мы/ХБТ ","v1.OДIE/%xQПо/Мы/ВўБ[","v1.OДIE/%xQПо/Мы/ВўБ[","v1.OДIE/%xQПо/Мы/≥™ЋЋ","v1.OДIE/%xQПо/Мы/≥™ЋЋ"},1,true),
+  require("PSDToolKit").LipSyncSimple.new({"v1.OДIE/%xQПо/Мы/ХБТ ","v1.OДIE/%xQПо/Мы/ВЌВнВн","v1.OДIE/%xQПо/Мы/ВЌВнВн","v1.OДIE/%xQПо/Мы/ВЌВнВн","v1.OДIE/%xQПо/Мы/≥™ЋЋ"},1,true),
+  "v1.OДIE/%xQПо/Мы/Пќ",
+  "v1.OДIE/%xQПо/Мы/ХБТ ",
+  "v1.OДIE/%xQПо/Мы/љЁ",
+  "v1.OДIE/%xQПо/Мы/¬Ё",
+  "v1.OДIE/%xQПо/Мы/ВњВгБ[",
+  "v1.OДIE/%xQПо/Мы/В’Б[",
+  "v1.OДIE/%xQПо/Мы/В§В÷В•",
+  "v1.OДIE/%xQПо/Мы/Пќ",
+  "v1.OДIE/%xQПо/Мы/ПќСе",
+  "v1.OДIE/%xQПо/Мы/ВўБ[",
+  "v1.OДIE/%xQПо/Мы/БҐ",
+  "v1.OДIE/%xQПо/Мы/МI",
+  "v1.OДIE/%xQПо/Мы/КJВѓ",
+  "v1.OДIE/%xQПо/Мы/ВЌВнВн",
+  "v1.OДIE/%xQПо/Мы/≥™ЋЋ",
+  "v1.OДIE/%xQПо/Мы/∆®",
+  "v1.OДIE/%xQПо/Мы/ВƒВ÷ВЎВл",
+  "v1.OДIE/%xQПо/Мы/∆ђ∞љ",
+  "v1.OДIE/%xQПо/Мы/ВёБ[Вс",
+  "v1.OДIE/%xQПо/Мы/В†БH",
+  "v1.OДIE/%xQПо/Мы/В®ВўВІ",
+  "v1.OДIE/%xQПо/Мы/±Ќ™",
+}
+PSD:addstate(values, obj.track2)

@@ -1,0 +1,20 @@
+--track0:時間,0,10,0,0.1
+--track1:移動量,0,1000,0,1
+--track2:IN角度,0,360,0,1
+--track3:OUT角度,0,360,0,1
+
+if (obj.time < obj.track0) then
+	local ratio = 1 - obj.time / obj.track0
+	local radius = obj.track1 * ratio
+	local rotation = obj.track2 * math.pi / 180
+	obj.alpha = 1 - ratio
+	obj.ox = radius * math.sin(rotation)
+	obj.oy = radius * math.cos(rotation)
+elseif (obj.totaltime - obj.time < obj.track0) then
+	local ratio = 1 - (obj.totaltime - obj.time) / obj.track0
+	local radius = obj.track1 * ratio
+	local rotation = obj.track3 * math.pi / 180
+	obj.alpha = 1 - ratio
+	obj.ox = radius * math.sin(rotation)
+	obj.oy = radius * math.cos(rotation)
+end

@@ -1,0 +1,6 @@
+@‰ï˜bŽžˆÈŠO“§–¾‰»
+--track0:“§–¾“x,0,1,1,0.01
+if subobj.notfound then
+  obj.alpha = obj.track0
+  return
+end
