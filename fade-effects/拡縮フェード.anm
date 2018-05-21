@@ -2,9 +2,10 @@
 --track1:IN•ûŒü,0,1,0,1
 --track2:OUT•ûŒü,0,1,0,1
 
+
 if (obj.time < obj.track0) then
 	local ratio = 1 - obj.time / obj.track0
-	obj.alpha = 1 - ratio
+	obj.alpha = obj.alpha * (1 - ratio)
 	if (obj.track1 == 0) then
 		obj.aspect = -ratio
 	else
@@ -12,7 +13,7 @@ if (obj.time < obj.track0) then
 	end
 elseif (obj.totaltime - obj.time < obj.track0) then
 	local ratio = 1 - (obj.totaltime - obj.time) / obj.track0
-	obj.alpha = 1 - ratio
+	obj.alpha = obj.alpha * (1 - ratio)
 	if (obj.track1 == 0) then
 		obj.aspect = -ratio
 	else
