@@ -1,0 +1,11 @@
+--track0:間隔,0,20,0,0.01
+--track1:回数,1,100,1,1
+--track2:移動量,-1000,1000,0,1
+--track3:収縮率,-10,10,0,0.01
+
+if(obj.time < obj.track0 * obj.track1) then
+  time = (obj.time % obj.track0 - obj.track0 / 2) * 2
+  ratio = 1 - (time / obj.track0) ^ 2
+  obj.oy = obj.oy + obj.track2 * ratio
+  obj.aspect = obj.track3 * ratio / 100
+end
